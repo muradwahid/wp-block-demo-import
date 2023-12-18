@@ -1,0 +1,236 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,300;0,400;0,800;1,300;1,400;1,500;1,600;1,700;1,800&display=swap');
+$primaryColor: #4527a4;
+
+.interface-interface-skeleton__header {
+  z-index: 100;
+}
+
+.bBlocksTemplatesButton {
+  font-size: 13px;
+  line-height: 120%;
+  font-weight: 500;
+  color: $primaryColor;
+  background-color: #0000;
+  display: flex;
+  align-items: center;
+  gap: 5px;
+  padding: 6px 15px;
+  margin: 0 5px;
+  border: 1px solid $primaryColor;
+  border-radius: 3px;
+  transition: all 0.3s ease-in-out;
+  cursor: pointer;
+
+  img {
+    width: 24px;
+    height: 24px;
+  }
+
+  // &:hover,
+  // &:focus {
+  //   color: white;
+  //   background-color: $primaryColor;
+  // }
+}
+
+.b-modal-main-container {
+  width: 100%;
+  height: 100dvh;
+  backdrop-filter: blur(3px);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  z-index: 9999;
+  ::-webkit-scrollbar {
+    width: 10px;
+  }
+  ::-webkit-scrollbar-track {
+    box-shadow: inset 0 0 5px $primaryColor;
+    border-radius: 10px;
+  }
+  ::-webkit-scrollbar-thumb {
+    background: $primaryColor;
+    border-radius: 10px;
+  }
+  .btn-active {
+    background-color: #212121 !important;
+    color: white !important;
+  }
+  h1,
+  h2,
+  h3,
+  h4,
+  h5,
+  h6 {
+    margin: 0px;
+  }
+  .button-style {
+    border: none;
+    padding: 10px 20px;
+    border-radius: 40px;
+    color: #212121;
+    cursor: pointer;
+    font-size: 13px;
+  }
+  .b-modal-container {
+    width: 90dvw;
+    height: 80dvh;
+    border-radius: 10px;
+    box-shadow: 0px 0px 10px 8px #b5b5b573;
+    background-color: white;
+    .b-modal-header-container {
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      border-bottom: 1px solid #cecece;
+      padding: 20px 30px;
+      .b-modal-header-logo {
+        h3 {
+          color: $primaryColor;
+          font-family: 'Poppins', sans-serif;
+          font-size: 22px;
+          font-weight: 700;
+        }
+      }
+      .b-modal-header-right {
+        font-size: 25px;
+        cursor: pointer;
+      }
+    }
+    .b-modal-body {
+      padding-left: 30px;
+      margin: 0 auto;
+      display: flex;
+      gap: 30px;
+      .b-modal-sidebar-container {
+        width: 230px;
+        margin: 20px 0;
+        height: 100%;
+        overflow: hidden;
+        .b-modal-sidebar-input-control-wrapper {
+          position: relative;
+          margin-top: 5px;
+          .b-modal-sidebar-search-icon {
+            position: absolute;
+            top: 50%;
+            right: 15px;
+            transform: translateY(-50%);
+          }
+
+          .b-modal-sidebar-input-control {
+            width: 95%;
+            height: 35px;
+            border: 1px solid #ccc;
+            border-radius: 3px;
+            padding: 0 10px;
+          }
+          .b-modal-sidebar-input-control:focus {
+            outline-color: $primaryColor;
+          }
+        }
+        .b-modal-sidebar-sub-choices {
+          display: flex;
+          gap: 10px;
+          margin: 20px 0;
+        }
+        .b-modal-sidebar-bottom-container {
+          max-height: calc(80vh - 245px);
+          overflow-y: auto;
+          padding-right: 15px;
+          .b-modal-sidebar-button {
+            border: none;
+            width: 100%;
+            text-align: left;
+            padding: 12px 10px;
+            letter-spacing: 0.5px;
+            background-color: transparent;
+            cursor: pointer;
+            border-radius: 5px;
+            font-size: 13px;
+          }
+        }
+      }
+      .b-modal-block-pattern-list-container {
+        display: grid;
+        grid-template-columns: repeat(3, 1fr);
+        gap: 30px;
+        max-height: calc(80vh - 90px);
+        overflow-y: auto;
+        overflow-x: hidden;
+        width: calc(100% - 230px);
+        .b-modal-block-pattern-item {
+          text-align: center;
+          margin: 10px 0;
+          .b-modal-block-badge {
+            background: $primaryColor;
+            color: white;
+            margin: 0px;
+            padding: 0px 5px;
+            font-size: x-small;
+            height: 17px;
+            border-radius: 10px;
+            box-shadow: 0px 0px 10px #9297b7d9;
+          }
+          .single-block-paternItem {
+            position: relative;
+            img {
+              border: 1px solid #ccc;
+              width: auto;
+              border-radius: 5px;
+            }
+            .b-modal-block-hover-button {
+              position: absolute;
+              top: 0;
+              left: 0;
+              visibility: hidden;
+              opacity: 0;
+              right: 0;
+              bottom: 0;
+              display: flex;
+              align-items: center;
+              justify-content: center;
+              backdrop-filter: blur(1px);
+              transition: all 0.3s ease-in-out;
+              a {
+                background: $primaryColor;
+                padding: 15px 40px;
+                border-radius: 5px;
+                cursor: pointer;
+                display: flex;
+                align-items: center;
+                transition: all 0.3s;
+                color: white;
+                font-size: 14px;
+                width: 90px;
+                justify-content: center;
+              }
+              .b-modal-block-hover-button-icon {
+                color: white;
+              }
+            }
+          }
+        }
+        .b-modal-block-pattern-item:hover {
+          .b-modal-block-hover-button {
+            visibility: visible;
+            opacity: 1;
+          }
+          .single-block-paternItem {
+            img {
+              filter: grayscale(80%);
+            }
+          }
+        }
+      }
+    }
+  }
+}
+.hidden {
+  overflow: hidden;
+}
+/* block pattern list style start */

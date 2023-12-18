@@ -1,0 +1,39 @@
+[  {
+    "img": "https://i.ibb.co/mHhx2hG/hero.png ",
+    "title": "hero 1",
+    "category": 1,
+    "pro": true,
+    "url":"https://bplugins.com",
+    "content":"<!-- wp:bsb/slider {\"cId\":\"2b4405e8-b\",\"sliders\":[{\"img\":{\"url\":\"https://bblockswp.com/wp-content/demo/img/green-grass-field.jpg\"},\"title\":\"Green Grass Field\",\"desc\":\"Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.\",\"btnLabel\":\"Read More\",\"btnUrl\":\"https://wordpress.org/plugins/b-slider/\"},{\"img\":{\"url\":\"https://bblockswp.com/wp-content/demo/img/wheat-plants.jpg\"},\"title\":\"Wheat Plants\",\"desc\":\"Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.\",\"btnLabel\":\"Read More\",\"btnUrl\":\"https://wordpress.org/plugins/b-slider/\"},{\"img\":{\"id\":null,\"url\":\"https://bblockswp.com/wp-content/demo/img/red-petal-flower.jpg\",\"alt\":\"\",\"title\":\"\"},\"title\":\"Red Petal Flower\",\"desc\":\"There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some form, by injected humour, or randomised words which don't look even slightly believable\",\"btnLabel\":\"Read More\",\"btnUrl\":\"https://wordpress.org/plugins/b-slider/\"},{\"img\":{\"url\":\"https://bblockswp.com/wp-content/demo/img/white-blooming-flower-under-the-tree.jpg\"},\"title\":\"Card Title-5\",\"desc\":\"This is description here-5\",\"btnLabel\":\"Read More\",\"btnUrl\":\"https://wordpress.org/plugins/b-slider/\"},{\"img\":{\"id\":null,\"url\":\"https://bblockswp.com/wp-content/demo/img/orange-petaled-flower.jpg\",\"alt\":\"\",\"title\":\"\"},\"title\":\"Orange Petaled Flower\",\"desc\":\"It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout. \",\"btnLabel\":\"Read More\",\"btnUrl\":\"https://wordpress.org/plugins/b-slider/\"}],\"btnRadius\":\"25px\",\"arrow\":{\"visibility\":false,\"size\":48,\"color\":\"rgba(255, 255, 255, 100)\",\"bg\":\"transparent\"},\"arrowStyle\":\"style3\",\"indicator\":{\"visibility\":true,\"type\":\"image\",\"style\":\"\",\"color\":\"#000\",\"activeColor\":\"#fff\",\"width\":\"80px\",\"height\":\"80px\",\"radius\":\"50%\",\"activeBorder\":{\"color\":\"#e1e1e1\",\"style\":\"solid\",\"width\":\"4px\"},\"imgPosition\":\"bottom center\",\"imgMove\":\"50%\",\"imgDirection\":\"row\",\"position\":\"bottom center\",\"direction\":\"horizontal\",\"moveFromEdge\":\"50%\"},\"options\":{\"interval\":2000,\"ride\":true,\"pause\":false,\"height\":400},\"animation\":\"carousel-fade\",\"position\":\"center center\",\"height\":\"500px\"} /-->"
+  },
+  {
+    "img": "https://i.ibb.co/4Y1VDRg/hero1.png",
+    "title": "hero 2",
+    "category": 1,
+    "pro": false
+  },
+  {
+    "img": "https://i.ibb.co/2yYQVvd/card.png",
+    "title": "card 1",
+    "category": 2,
+    "pro": false
+  },
+  {
+    "img": "https://i.ibb.co/1JLmY48/card2.png",
+    "title": "card 2",
+    "category": 2,
+    "pro": false
+  },
+  {
+    "img": "https://i.ibb.co/fnDbkrT/column.png",
+    "title": "column 1",
+    "category": 3,
+    "pro": false
+  },
+  {
+    "img": "https://i.ibb.co/SJ9gkcF/mediatext.png",
+    "title": "Media and Text 1",
+    "category": 4,
+    "pro": false
+  }
+]

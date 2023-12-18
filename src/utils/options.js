@@ -1,0 +1,70 @@
+export const patternsOptions = [
+  'All',
+  'Hero',
+  'Cards',
+  'Columns',
+  'Media and Text',
+  'Counter or Stats',
+  'Form',
+  'Gallery',
+  'Accordion',
+  'Image',
+  'List',
+  'Location',
+  'Logo Farm',
+  'Team',
+  'Post Loop',
+  'Pricing Table',
+  'Slider',
+  'Tabs',
+  'Testimonials',
+  'Title or Header',
+  'Video',
+  'Text',
+  'Featured Product',
+  'Divider',
+  'Menu',
+  'Product Loop',
+  'Table of Contents',
+];
+
+export const pagesOptions = [
+  'All',
+  'Home',
+  'Portfolio',
+  'Services',
+  'About',
+  'Contact',
+];
+export const blockData=[
+  {
+    img: 'https://i.ibb.co/mHhx2hG/hero.png',
+    title: 'hero 1',
+    category: 1,
+  },
+  {
+    img: 'https://i.ibb.co/4Y1VDRg/hero1.png',
+    title: 'hero 2',
+    category: 1,
+  },
+  {
+    img: 'https://i.ibb.co/2yYQVvd/card.png',
+    title: 'card 1',
+    category: 2,
+  },
+  {
+    img: 'https://i.ibb.co/1JLmY48/card2.png',
+    title: 'card 2',
+    category: 2,
+  },
+  {
+    img: 'https://i.ibb.co/fnDbkrT/column.png',
+    title: 'column 1',
+    category: 3,
+  },
+  {
+    img: 'https://i.ibb.co/SJ9gkcF/mediatext.png',
+    title: 'Media and Text 1',
+    category: 4,
+  },
+];
