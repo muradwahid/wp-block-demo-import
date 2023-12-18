@@ -28,7 +28,7 @@ const BModal = ({ show, setShow }) => {
       className="b-modal-main-container"
       style={{ visibility: show ? 'visible' : 'hidden' }}
     >
-      <div ref={contentRef} className="b-modal-container">
+      <div ref={contentRef} style={{marginTop:show?"0":"50px",transition:"margin 0.5s ease-out"}} className="b-modal-container">
         <ModalHeader show={show} setShow={setShow} />
         {show && <div className="b-modal-body">
           <SideBar

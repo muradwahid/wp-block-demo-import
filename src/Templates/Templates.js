@@ -10,7 +10,6 @@ const Templates = () => {
         <img src="https://ps.w.org/b-blocks/assets/icon-128x128.png"  alt='B Blocks'/>B
         Templates
       </button>
-
       <BModal show={show} setShow={setShow} />
     </>
   );
